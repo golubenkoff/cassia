@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <OutputType>Exe</OutputType>
     <Company>Cassia Developers</Company>
     <Authors>Cassia Developers</Authors>
@@ -8,6 +8,9 @@
     <Copyright>Copyright © 2008 - 2020</Copyright>
     <AssemblyVersion>$(ASSEMBLY_FILE_VERSION)</AssemblyVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.SystemEvents" Version="9.0.4" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Source\Cassia\Cassia.csproj" />
   </ItemGroup>

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <OutputType>Library</OutputType>
     <Company>Cassia Developers</Company>
     <Authors>Cassia Developers</Authors>
@@ -26,7 +26,4 @@
     <DocumentationFile>..\..\Bin\Cassia.xml</DocumentationFile>
     <NoWarn>1591</NoWarn>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="System.Security.Principal.Windows" Version="4.7.0" />
-  </ItemGroup>
 </Project>
